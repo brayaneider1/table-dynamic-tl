@@ -1,7 +1,7 @@
 import { LitElement, html, PropertyValues } from 'lit';
 import { customElement,property  } from 'lit/decorators.js';
 
-@customElement('table-dynamic')
+@customElement('table-dynamic-tl')
 export class TableDynamic extends LitElement {
   @property({ type: Array }) headers: string[] = [];
   @property({ type: Array }) body: string[][] = [];
